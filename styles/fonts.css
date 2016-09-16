@@ -1,14 +1,13 @@
 @font-face {
-  font-family: 'MyRiad';
-  src: url(../fonts/MyriadPro-Regular.otf);
+  font-family: dinpro;
+  src: url("../fonts/dinpro.otf");
 }
 @font-face {
-  font-family: 'MyRiad';
-  src: url(../fonts/MyriadPro-Bold.otf);
+  font-family: dinpro;
+  src: url("../fonts/dinpro-bold.otf");
   font-weight: bold;
 }
 @font-face {
-  font-family: 'MyRiad';
-  src: url(../fonts/MyriadPro-It.otf);
-  font-style: italic;
+  font-family: dinpro-medium;
+  src: url("../fonts/dinpro-medium.ttf");
 }
