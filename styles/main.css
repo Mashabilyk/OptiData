@@ -1,0 +1,142 @@
+@import url("fonts.css");
+
+body{
+  background-color: #fff;
+  font-family: 'MyRiad', Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+#main-nav,
+#main-nav .navbar-inverse{
+  background-color: #262626;
+  border: 0;
+  margin: 0;
+  padding: 12px 0;
+}
+
+#main-menu a{
+  font-weight: bold;
+  color: #d9d9d9;
+}
+
+#main-menu a:hover,
+#main-menu a:active,
+#main-menu a:focus{
+  color: #ff6760;
+}
+
+#slider{
+  background-color: #2a2a2a;
+  color: #d9d9d9;
+  padding: 55px 0;
+}
+
+#slider h1{
+  font-size: 60px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+#slider p{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.btn-base{
+  color: #fffafa;
+  background-color: #ff6760;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-base:hover{
+  background-color: #595959;
+  color: #fffafa;
+}
+#goods {
+  background-color: #f8f8f8;
+}
+
+.thumb {
+  text-align: center;
+  margin: 90px 0;
+}
+div.thumb>img {
+  height: 54px;
+}
+#features p {
+  font-size: 20px;
+  color:#616161;
+  margin-bottom: 55px;
+}
+#features h2 {
+  font-size: 30px;
+  color:#616161;
+  margin: 58px 0 19px;
+}
+#features button {
+  margin-right: 5px;
+}
+#pictures {
+  margin: 21px 0 77px;
+}
+#pictures img {
+  height:230px;
+  margin-top: 10px;
+}
+#pictures div {
+  text-align: center;
+}
+#footer1 {
+  background-color: #313131;
+  color: #d9d9d9;
+  padding: 60px 0;
+}
+i.fa {
+  color:#ff6760;
+  margin-right: 15px;
+}
+/*i:last-of-type {
+  margin-left: 50px;
+}*/
+.fa-phone {
+margin-left: 50px;
+}
+#social {
+  margi: 10px;
+}
+#social a {
+  width: 50px;
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  margin:5px;
+}
+#social .fa-rss {
+  background-color: #f3b25b;
+}
+#social .fa-facebook {
+  background-color: #5883c0;
+}
+#social .fa-tumblr {
+  background-color: #63bee0;
+}
+#social .fa-dribbble {
+  background-color: #e9a0c4;
+}
+#social .fa-pinterest-p {
+  background-color: #d35051;
+}
+#footer1 p:first-of-type {
+  font-size: 20px;
+}
+#footer2 {
+  background-color: #2C2C2C;
+  color:  #d9d9d9;
+  padding: 30px;
+}
