@@ -12,6 +12,10 @@ h5,
 h6 {
   font-weight: bold;
 }
+
+h1 {
+  font-size: 70px;
+}
 #nav a {
   font-size: 12px;
   color: #fff;
@@ -30,6 +34,80 @@ h6 {
   display: none;
 }
 
+.main-btn {
+  border: 1px solid #fff;
+  border-radius: 32px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 55px;
+  text-transform:uppercase;
+  padding: 1.5em 2.5em;
+
+}
+.main-btn:hover {
+  background-color: rgba(173,232, 140, 0.9);
+  color: #965352;
+  transition: background-color 1s ease-out;
+}
+
+.pics {
+  margin-bottom: 20%;
+}
+.pics img {
+  margin-left: 16px;
+}
+
+.navbar-default .navbar-toggle{
+  background-color: transparent;
+  border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  background-color: transparent;
+}
+
+.navbar-toggle .icon-bar,
+.navbar-toggle:hover .icon-bar{
+  background-color: #965352;
+}
+
+#mainslider .carousel-control.left,
+#mainslider .carousel-control.right{
+  height: 95%;
+}
+#mainslider{
+  border-radius: 0px 0px 100% 100% / 0px 0px 41px 40px;
+}
+
+#mainslider .item > .inner {
+  background: url(../img/Layer9-1.png);
+  height: 640px;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 42px;
+    margin-top: 0;
+  }
+  .pics {
+    margin-bottom: 10%;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .pics .main-btn{
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width:768px)  {
   #mainslider{
     display: none;
@@ -39,8 +117,32 @@ h6 {
     background-color: transparent;
     background-image: url("../img/Layer 10 copy.png");
     background-position: bottom;
-    padding-top: 100px;
+    padding-top: 80px;
     color: #fff;
     height: 300px;
   }
+  #nav a{
+    color: #965352;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  .navbar-nav.nav{
+
+    background-color: rgba(255,255, 255, 0.9);
+  }
+}
+
+@media screen and (max-width: 480px){
+ .pics{
+   text-align: center;
+ }
+  .pics img {
+    margin: 0 30px 15px;
+  }
+
+  .pics a{
+    margin: 0;
+  }
+
 }
