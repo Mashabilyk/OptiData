@@ -163,6 +163,63 @@ h4 {
   border-radius: 32px;
   padding: 1.5em 1em;
 }
+#news{
+  margin-bottom: 100px;
+}
+#promo{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, .45), rgba(255, 255, 255, .45)), url(../img/Carusel.png);
+
+  border-radius: 100% 100% 100% 100% / 50px 50px 50px 50px;
+}
+.promo-slider{
+  padding: 50px 0;
+}
+
+/* slick slider*/
+.slick-prev {
+  left: -25px;
+}
+.slick-next{
+  right: -25px;
+}
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-next::before,
+.slick-prev::before{
+  content: "";
+  display: block;
+  height: 18px;
+  width: 12px;
+  opacity: .5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.slick-next::before{
+  background: url(../img/arrow-right.png) no-repeat;
+}
+
+.slick-prev::before{
+  background: url(../img/arrow-left.png) no-repeat;
+}
+.slick-next:hover::before,
+.slick-prev:hover::before{
+  opacity: 1;
+}
+/* end of slick */
+
 @media screen and (max-width: 1280px) {
   h1 {
     font-size: 42px;
