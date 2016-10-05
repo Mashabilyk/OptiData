@@ -6,3 +6,4 @@ Thumb.db
 *.tif
 vendor/
 .gitignore
+.DS_Store
