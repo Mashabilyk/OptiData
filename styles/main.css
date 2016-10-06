@@ -18,10 +18,16 @@ h1 {
 }
 h3 {
   font-size: 26px;
+  text-transform: capitalize;
 }
 h4 {
   font-size: 22px;
   color: #5d9040;
+}
+h5 {
+  font-size: 18px;
+  color: #5d9040;
+  text-transform: capitalize;
 }
 #nav a {
   font-size: 12px;
@@ -174,6 +180,9 @@ h4 {
 .promo-slider{
   padding: 50px 0;
 }
+#promo h3 {
+color: #5d9040;
+}
 
 /* slick slider*/
 .slick-prev {
@@ -217,6 +226,16 @@ h4 {
 .slick-next:hover::before,
 .slick-prev:hover::before{
   opacity: 1;
+}
+.promo {
+  padding: 10px;
+  width: 200px;
+}
+#contacts {
+  margin: 50px;
+}
+#contacts img {
+  height: 30px;
 }
 /* end of slick */
 
