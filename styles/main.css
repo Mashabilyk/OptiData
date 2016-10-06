@@ -29,6 +29,12 @@ h5 {
   color: #5d9040;
   text-transform: capitalize;
 }
+h6 {
+  font-size: 18px;
+  color: #965352;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 #nav a {
   font-size: 12px;
   color: #fff;
@@ -314,6 +320,22 @@ color: transparent;
 #map{
   height: 350px;
   padding: 0;
+  margin-bottom: 50px;
+}
+#footer img {
+  height: 40px;
+}
+#footer p {
+  color:#5d9040;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.col-lg-3.logo {
+  text-align: center;
+}
+.col-lg-3.contact {
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1280px) {
