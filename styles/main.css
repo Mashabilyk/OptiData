@@ -227,17 +227,94 @@ color: #5d9040;
 .slick-prev:hover::before{
   opacity: 1;
 }
-.promo {
-  padding: 10px;
+.promo h5,
+.promo p {
+  margin: 0 auto 20px;
   width: 200px;
 }
 #contacts {
-  margin: 50px;
+  margin: 50px 0;
 }
 #contacts img {
   height: 30px;
 }
 /* end of slick */
+
+.input {
+  border: 2px solid #dadae4;
+  border-radius:3em;
+  margin-bottom: 20px;
+  padding: 1em 2em;
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  border: 2px solid #5d9040;
+  box-shadow: 0px 0px 14px -2px #5D9040;
+}
+textarea.input {
+  height: 15em;
+  resize: none;
+}
+.submit {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px dashed #965352;
+  color: #5d9040;
+  font-weight: bold;
+  font-size: 20px;
+}
+.submit:hover {
+  color: #965352;
+  }
+.submit:hover + .shield {
+  background: none;
+}
+.shield{
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../img/Thumb_1.png) no-repeat;
+  background-size: contain;
+  position: relative;
+  right: -225px;
+  top:-30px;
+}
+
+.input::-webkit-input-placeholder {
+  color: #5d9040;
+}
+.input::-moz-placeholder {
+  color: #5d9040;
+}
+.input:-moz-placeholder {
+  color: #5d9040;
+}
+.input:-ms-input-placeholder {
+  color: #5d9040;
+}
+.input:focus::-webkit-input-placeholder {
+color: transparent;
+}
+.input:focus::-moz-placeholder {
+color: transparent;
+}
+.input:focus:-moz-placeholder {
+color: transparent;
+}
+.input:focus:-ms-input-placeholder {
+color: transparent;
+}
+
+.description {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#map{
+  height: 350px;
+  padding: 0;
+}
 
 @media screen and (max-width: 1280px) {
   h1 {
@@ -247,6 +324,13 @@ color: #5d9040;
   .pics {
     margin-bottom: 10%;
   }
+  .slick-prev {
+    left: 0;
+  }
+  .slick-next{
+    right: 0;
+  }
+
 
 }
 
